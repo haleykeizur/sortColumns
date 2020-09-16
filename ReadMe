@@ -1,0 +1,9 @@
+Read Me: This program allows users to input an array of strings of letters, then iterates through each string at particular 
+indicies to see if they are in order. For example, if the letter in index 2 of each item is in alphebetical order. If all the strings are
+good, the program outputs a 0, if there is one or more that are out of order, the program lets you know the total amount and
+the indices of the columns that are wrong, and if theres an error or the strings aren't all the same length, the program outputs a -1.
+
+
+Time Complexity: O(n^2) because of the nested for loop
+
+Space Complexity: O(n^2) because of the 2D array
